@@ -47,6 +47,9 @@ body {
 .header .links {
     position: relative;
 }
+.header .links:hover .icon span:nth-child(2) {
+    width: 100%;
+}
 .header .links .icon {
     width: 30px;
     display: flex;
@@ -63,8 +66,24 @@ body {
 }
 .header .links .icon .span:nth-child(2) {
   width: 60%;
+  transition: 0.3s;
 }
 .header .links .icon .span:last-child {
   width: 100%;
+}
+.header .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+    position: absolute;
+    right: 0;
+    min-width: 200px;
+    top: calc(100% + 15px);
+    /*display: none;*/
+
+}
+.header .links ul::before {
+    content: "";
 }
 /* End Header */
