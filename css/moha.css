@@ -42,7 +42,7 @@ body {
     align-items: center;
 }
 .header .logo {
-    width: 80px;
+    width: 60px;
 }
 .header .links {
     position: relative;
@@ -53,7 +53,7 @@ body {
     flex-wrap: wrap;
 }
 .header .links .icon .span {
-    background-color: #333;
+    background-color: rgb(10, 10, 10);
     margin-bottom: 5px;
     height: 3px;
 }
