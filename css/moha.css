@@ -202,6 +202,6 @@ body {
 }
 .services .services-content {
     display: grid;
-    
+    grid-template-columns: ;
 }
 /* End Services */
