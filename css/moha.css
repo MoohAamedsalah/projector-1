@@ -216,4 +216,7 @@ body {
       text-align: center;
     }
 }
+.services .services-content .srv i {
+    color: var;
+}
 /* End Services */
