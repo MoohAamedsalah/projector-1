@@ -2,6 +2,9 @@
 :root {
     --main-color: #10cab7;
     --secondary-color: #2c4755;
+    --section-padding: 60px;
+    --section-background: #f6f6f6;
+    --main-duration: 0.5s;
 }
 /* End Variables */
 /* Start Global Rules */
@@ -10,6 +13,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Work Sans", sans-serif;
 }
