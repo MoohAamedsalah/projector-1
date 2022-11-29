@@ -410,5 +410,9 @@ body {
     text-align: center;
     font-size: 18px;
 }
+.footer span {
+    font-weight: bold;
+    color: var(--main-color);
+}
 
 /* End Services */
