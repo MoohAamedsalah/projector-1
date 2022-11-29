@@ -195,3 +195,9 @@ body {
     font-size: 17px;
  }
 /* End Features */
+/* Start Services */
+.services {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* End Services */
