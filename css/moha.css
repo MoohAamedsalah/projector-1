@@ -64,9 +64,11 @@ body {
       font-size: 60px;
     }
 } 
-.special-heading + p{
+.special-heading + p {
     margin-top: -20px;
-}   
+   }
+
+ 
 /* End Components */
 /* Start Header */
 .header {
