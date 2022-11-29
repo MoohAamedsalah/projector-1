@@ -1,3 +1,6 @@
+/* Staet Variables */
+
+/* End Variables */
 /* Start Global Rules */
 *{
     -webkit-box-sizing: border-box;
@@ -14,9 +17,9 @@ body {
     margin-right: auto;
 }
 /* Small Screen */
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .container {
-        width: 750px;
+        width: 970px;
     }
 }
 /* Medium Screen */
@@ -112,3 +115,20 @@ body {
 
 
 /* End Header */
+/* Start Landing Section */
+.landing {
+    background-image: url(../images/images.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+
+}
+.landing .intro-text {
+
+}
+.landing .intro-text h1 {
+  margin: 0;
+}
+.landing .intro-text p {
+
+}
+/* End Landing Section */
