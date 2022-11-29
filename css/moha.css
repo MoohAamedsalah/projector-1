@@ -217,6 +217,7 @@ body {
     }
 }
 .services .services-content .srv i {
-    color: var;
+    color: var(--main-color);
+    flex-basis: 60px;
 }
 /* End Services */
