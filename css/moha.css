@@ -66,14 +66,14 @@ body {
     margin-bottom: 5px;
     height: 2px;
 }
-.header .links .icon .span:first-child {
+.header .links .icon span:first-child {
   width: 100%;
 }
-.header .links .icon .span:nth-child(2) {
+.header .links .icon span:nth-child(2) {
   width: 60%;
   transition: 0.3s;
 }
-.header .links .icon .span:last-child {
+.header .links .icon span:last-child {
   width: 100%;
 }
 .header .links ul {
@@ -86,7 +86,7 @@ body {
     min-width: 200px;
     top: calc(100% + 15px);
     display: none;
-
+    z-index: 1;
 }
 .header .links ul::before {
     content: "";
@@ -128,7 +128,10 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
+    width: 320px;
+    max-width: 100%;
 }
 .landing .intro-text h1 {
   margin: 0;
