@@ -13,7 +13,9 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Work Sans", sans-serif;
 }
@@ -23,13 +25,13 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-/* Small Screen */
-@media (min-width: 992px) {
+/* Small */
+@media (min-width: 768px) {
     .container {
-        width: 970px;
+        width: 750px;
     }
 }
-/* Medium Screen */
+/* Medium */
 @media (min-width: 992px) {
     .container{
         width: 970px;
